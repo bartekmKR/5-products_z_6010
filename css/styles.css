@@ -1,8 +1,12 @@
 body {
   background-color: #98fb98;
-  margin: auto;
+  margin: 0;
 }
 
+#list {
+  height: 100%;
+  
+}
 
 .products {
   float: left;
@@ -12,7 +16,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   margin: 10px;
-  
+
 }
 
 #product-1 {
@@ -47,7 +51,6 @@ body {
   position: absolute;
   text-align: center;
   color: #fff;
-  position: absolute;
   width: 100%;
   top: 50%;
   transform: translateY(-50%);
