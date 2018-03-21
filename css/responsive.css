@@ -1,7 +1,6 @@
-
 /*dla urządzeń pom 992px do 480px- wyświetlanie w 2 kolumnach*/
 
-@media screen and (min-width: 480px) and (max-width: 992px) {
+@media all and (min-width: 480px) and (max-width: 992px) {
 	.products {
 		width: 33%;
 	}
@@ -10,9 +9,9 @@
 
 /*dla urządzeń poniżej 480px- wyświetlanie w 100% szerokości ekranu*/
 
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
 	.products {
 		width: 100%;
-		
+
 	}
 }
